@@ -1,0 +1,39 @@
+/*********** LES FILTRES *********/
+#filter {
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+#filter .filtre-box {
+    margin: 10px 15px;
+}
+
+/********** SECTION HEBERGEMENT *********/
+#hebergement {
+    flex-direction: column;
+}
+
+#hebergement .marseille,
+#hebergement .populaire {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/********** SECTION ACTIVITE***********/
+#activite .activite-list {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#activite .activite-list .column {
+    width: 48%;
+}
+
+/********* PIED DE PAGE ***********/
+footer {
+    justify-content: space-between;
+}
+
+footer .column {
+    width: auto;
+}
